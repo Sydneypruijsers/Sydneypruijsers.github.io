@@ -1,6 +1,3 @@
-main {
-    color: #fa66c9;
-}
 
 /*nav bar*/
 .navbar ul {
@@ -28,17 +25,26 @@ main {
 }
 
 
+/*profile page*/
+main {
+    color: #fa66c9;
+}
 
 .socials {
     color: #ea5e9f;
     background-color: black;
 }
 
+.sillyfacts{
+    list-style-type: none;
+    text-align: left;
+    padding-bottom: 20%;
+}
+
 /*personal-info*/
 .personal-info {
     /* height: fit-content margin: 0; */
     text-align: center;
-    width:;
     font-family: "Times New Roman", Times, serif;
     
 }
@@ -56,26 +62,12 @@ main {
 }
 
 
-/*characteristics list*/
-/* .lists {
-    display:
-} */
 
 
 
 
-
-/*faq lists*/
-.antwoord ul {
-    list-style-type: disc;
-    /* Ensures bullets or other markers */
-    padding-left: 20px;
-    /* Adds some space before the list items */
-    margin: 10px 0;
-    /* Adds margin around the list */
-}
-
-.antwoord ul li {
+/*dashboard*/
+*.antwoord ul li {
     display: block;
     margin-bottom: 10px;
 }
@@ -106,6 +98,7 @@ td {
     color:rgb(55, 28, 51)
 }
 
+/*ha logo*/
 .hz-logo {
     position: fixed;
     top: 87%;
@@ -116,7 +109,9 @@ td {
     /* Optional: Adds space between the image and the edges */
 }
 
-.sillyfacts{
-    list-style-type: none;
-    text-align: left;
+
+
+/* index title page*/
+.ict-about-me{
+    color:#fa66c9
 }
