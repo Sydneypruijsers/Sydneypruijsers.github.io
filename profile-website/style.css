@@ -1,0 +1,123 @@
+/*nav bar*/
+.navbar{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a9226c;
+    position: sticky;
+    top: 0;
+
+}
+
+.navbar li {
+    float: left;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+.navbar li a {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar :hover {
+    background-color: rgb(134, 31, 76);
+   
+}
+
+/*profile page*/
+main {
+    color: #fa66c9;
+}
+
+.socials {
+    color: #fa66c9;
+
+}
+
+.sillyfacts {
+    list-style-type: none;
+    text-align: left;
+    padding-bottom: 20%;
+}
+
+/*personal-info*/
+.personal-info {
+    /* height: fit-content margin: 0; */
+    text-align: center;
+
+}
+
+/*mimi-img*/
+.mimi-img {
+    float: left;
+}
+
+/*table border*/
+.table-border {
+    float: right;
+}
+
+/*dashboard*/
+*.antwoord ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.dashboard-table {
+    position: fixed;
+    top: 10%;
+    margin-left: 25%;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #f2a0cc;
+}
+
+th {
+    background-color: #a9226c;
+    color: azure;
+    border: 1px solid black;
+}
+
+td {
+    color: rgb(55, 28, 51)
+}
+
+/*ha logo*/
+.hz-logo {
+    position: fixed;
+    top: 87%;
+    /* Distance from the top */
+    right: 0;
+    /* Distance from the right */
+    margin: 10;
+    /* Optional: Adds space between the image and the edges */
+}
+
+/* index title page*/
+.ict-about-me {
+    color: #fa66c9
+}
